@@ -1,0 +1,26 @@
+Printing scores of small collection...
+Collection includes ['Head', 'ShoulderLeft', 'ShoulderRight', 'ShoulderCenter', 'ElbowLeft', 'ElbowRight', 'WristLeft', 'WristRight', 'HandLeft', 'HandRight', 'Spine', 'HipLeft', 'HipRight', 'HipCenter']
+SVM with test_size = 0.4 and linear kernel: 0.994505494505
+SVM with test_size = 0.4 and rbf kernel: 0.983516483516
+SVM with test_size = 0.4 and poly kernel: 1.0
+SVM with test_size = 0.4 : 0.994505494505
+Random Forest with test_size = 0.4 : 0.99989010989
+Neural Network with test_size = 0.4 : 0.989010989011
+
+SVM with test_size = 0.6 : 0.992673992674
+Random Forest with test_size = 0.6 : 0.992527472527
+Neural Network with test_size = 0.6 : 0.974358974359
+
+SVM with test_size = 0.8 : 0.972527472527
+Random Forest with test_size = 0.8 : 0.981456043956
+Neural Network with test_size = 0.8 : 0.983516483516
+
+Printing scores of small collection with noise data...
+SVM with noise data: 0.963917525773
+Random Forest with noise data: 0.959072164948
+Neural Network with noise data: 0.948453608247
+
+Printing scores of all collection...
+SVM with all collection: 0.994505494505
+Random Forest with all collection: 0.999340659341
+Neural Network with all collection: 0.983516483516

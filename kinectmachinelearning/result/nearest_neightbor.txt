@@ -1,0 +1,74 @@
+[Sit-Stand]:
+Printing scores of small collection...
+Collection includes ['HipCenter', 'HipLeft', 'HipRight', 'KneeRight', 'KneeLeft', 'WristRight', 'WristLeft', 'HandRight', 'HandLeft', 'ElbowRight', 'ElbowLeft']
+Nearest Neighbor with test_size = 0.4 : 0.999239736442
+
+Nearest Neighbor with test_size = 0.6 : 0.999155119973
+
+Nearest Neighbor with test_size = 0.8 : 0.998859460144
+
+Printing scores of small collection with noise data...
+Nearest Neighbor with noise data 0.997852179406
+
+Printing scores of all collection...
+Nearest Neighbor with all data 0.999239640096
+
+[Left-Right]:
+Printing scores of small collection...
+Collection includes ['KneeRight', 'KneeLeft', 'AnkleRight', 'AnkleLeft', 'FootRight', 'FootLeft']
+Nearest Neighbor with test_size = 0.4 : 0.988952536825
+
+Nearest Neighbor with test_size = 0.6 : 0.98963165075
+
+Nearest Neighbor with test_size = 0.8 : 0.988950276243
+
+Printing scores of small collection with noise data...
+Nearest Neighbor with noise data 0.984117287721
+
+Printing scores of all collection...
+Nearest Neighbor with all data 0.987313280131
+
+[Up-Down]:
+Printing scores of small collection...
+Collection includes ['HandLeft', 'HandRight', 'WristLeft', 'WristRight', 'ElbowLeft', 'ElbowRight', 'ShoulderLeft', 'ShoulderRight', 'ShoulderCenter']
+Nearest Neighbor with test_size = 0.4 : 0.998733535968
+
+Nearest Neighbor with test_size = 0.6 : 0.996960486322
+
+Nearest Neighbor with test_size = 0.8 : 0.99531408308
+
+Printing scores of small collection with noise data...
+Nearest Neighbor with noise data 0.994949494949
+
+Printing scores of all collection...
+Nearest Neighbor with all data 0.995947315096
+
+[Turning]:
+Printing scores of small collection...
+Collection includes ['HandLeft', 'HandRight', 'WristLeft', 'WristRight', 'ElbowLeft', 'ElbowRight', 'ShoulderLeft', 'ShoulderRight', 'ShoulderCenter', 'HipLeft', 'HipRight', 'HipCenter', 'KneeLeft', 'KneeRight']
+Nearest Neighbor with test_size = 0.4 : 0.924329741919
+
+Nearest Neighbor with test_size = 0.6 : 0.920982292015
+
+Nearest Neighbor with test_size = 0.8 : 0.913294073424
+
+Printing scores of small collection with noise data...
+Nearest Neighbor with noise data 0.9145
+
+Printing scores of all collection...
+Nearest Neighbor with all data 0.911915800025
+
+[Bending]:
+Printing scores of small collection...
+Collection includes ['Head', 'ShoulderLeft', 'ShoulderRight', 'ShoulderCenter', 'ElbowLeft', 'ElbowRight', 'WristLeft', 'WristRight', 'HandLeft', 'HandRight', 'Spine', 'HipLeft', 'HipRight', 'HipCenter']
+Nearest Neighbor with test_size = 0.4 : 0.944848332916
+
+Nearest Neighbor with test_size = 0.6 : 0.94050802139
+
+Nearest Neighbor with test_size = 0.8 : 0.939709200301
+
+Printing scores of small collection with noise data...
+Nearest Neighbor with noise data 0.930875
+
+Printing scores of all collection...
+Nearest Neighbor with all data 0.93795437453

@@ -1,0 +1,31 @@
+Printing scores of small collection...
+Collection includes ['KneeRight', 'KneeLeft', 'AnkleRight', 'AnkleLeft', 'FootRight', 'FootLeft']
+SVM with test_size = 0.4 and linear kernel: 0.957983193277
+SVM with test_size = 0.4 and rbf kernel: 0.903361344538
+SVM with test_size = 0.4 and poly kernel: 0.957983193277
+SVM with test_size = 0.4 : 0.957983193277
+Gaussian NB with test_size = 0.4 : 0.928571428571
+Random Forest with test_size = 0.4 : 0.968823529412
+Neural Network with test_size = 0.4 : 0.96218487395
+
+SVM with test_size = 0.6 : 0.952380952381
+Gaussian NB with test_size = 0.6 : 0.921568627451
+Random Forest with test_size = 0.6 : 0.949859943978
+Neural Network with test_size = 0.6 : 0.949579831933
+
+SVM with test_size = 0.8 : 0.943277310924
+Gaussian NB with test_size = 0.8 : 0.926470588235
+Random Forest with test_size = 0.8 : 0.929579831933
+Neural Network with test_size = 0.8 : 0.951680672269
+
+Printing scores of small collection with noise data...
+SVM with noise data: 0.92578125
+Random Forest with noise data: 0.9282421875
+Neural Network with noise data: 0.933333333333
+Gaussian NB with noise data: 0.87109375
+
+Printing scores of all collection...
+SVM with all collection: 0.953781512605
+Random Forest with all collection: 0.96512605042
+Neural Network with all collection: 0.932773109244
+Gaussian NB with all collection: 0.844537815126

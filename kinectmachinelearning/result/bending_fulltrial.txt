@@ -1,0 +1,36 @@
+Printing scores of small collection...
+Collection includes ['Head', 'ShoulderLeft', 'ShoulderRight', 'ShoulderCenter', 'ElbowLeft', 'ElbowRight', 'WristLeft', 'WristRight', 'HandLeft', 'HandRight', 'Spine', 'HipLeft', 'HipRight', 'HipCenter']
+SVM with test_size = 0.4 and linear kernel: 0.952428642964
+SVM with test_size = 0.4 and rbf kernel: 0.953430145218
+SVM with test_size = 0.4 and poly kernel: 0.954932398598
+SVM with test_size = 0.4 : 0.952428642964
+Gaussian NB with test_size = 0.4 : 0.949424136204
+Random Forest with test_size = 0.4 : 0.955142714071
+AdaBoost with test_size = 0.4 : 0.945418127191
+Neural Network with test_size = 0.4 : 0.950400801603
+
+SVM with test_size = 0.6 : 0.954924874791
+Gaussian NB with test_size = 0.6 : 0.950584307179
+Random Forest with test_size = 0.6 : 0.956480801336
+AdaBoost with test_size = 0.6 : 0.951525876461
+Neural Network with test_size = 0.6 : 0.952905811623
+
+SVM with test_size = 0.8 : 0.957175056349
+Gaussian NB with test_size = 0.8 : 0.950162784874
+Random Forest with test_size = 0.8 : 0.956821938392
+AdaBoost with test_size = 0.8 : 0.955895316804
+Neural Network with test_size = 0.8 : 0.944889779559
+
+Printing scores of small collection with noise data...
+SVM with noise data: 0.947
+Random Forest with noise data: 0.951535
+AdaBoost with noise data: 0.947
+Neural Network with noise data: 0.9485
+Gaussian NB with noise data: 0.946
+
+Printing scores of all collection...
+SVM with all collection: 0.952428642964
+Random Forest with all collection: 0.953660490736
+AdaBoost with all collection: 0.946419629444
+Neural Network with all collection: 0.956412825651
+Gaussian NB with all collection: 0.948923385078

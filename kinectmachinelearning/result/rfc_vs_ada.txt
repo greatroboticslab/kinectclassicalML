@@ -1,0 +1,18 @@
+Printing scores of small collection...
+Collection includes ['KneeRight', 'KneeLeft', 'AnkleRight', 'AnkleLeft', 'FootRight', 'FootLeft']
+Random Forest with test_size = 0.4 : 0.969285714286
+AdaBoost with test_size = 0.4 : 0.96218487395
+
+Random Forest with test_size = 0.6 : 0.949411764706
+AdaBoost with test_size = 0.6 : 0.932773109244
+
+Random Forest with test_size = 0.8 : 0.929075630252
+AdaBoost with test_size = 0.8 : 0.913865546218
+
+Printing scores of small collection with noise data...
+Random Forest with noise data: 0.904140625
+AdaBoost with noise data: 0.87890625
+
+Printing scores of all collection...
+Random Forest with all collection: 0.965924369748
+AdaBoost with all collection: 0.966386554622
