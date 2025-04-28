@@ -145,6 +145,8 @@ class LSTMClassifier(nn.Module):
 
 model = LSTMClassifier(input_dim, hidden_dim, layer_dim, output_dim)
 model = model.cuda()
+
+
 criterion = nn.CrossEntropyLoss()
 opt = torch.optim.RMSprop(model.parameters(), lr=lr)
 sched = CyclicLR(opt, cosine(t_max=iterations_per_epoch * 2, eta_min=lr/100))

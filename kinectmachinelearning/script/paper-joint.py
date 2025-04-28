@@ -6,6 +6,7 @@ from kinect_learning import (joints_collection, load_data, SVM, Random_Forest, A
 
 ## Build path to file.
 DATA_DIR = 'data'
+
 FILE_NAME = 'left-right.csv'
 FILE_PATH = join(DATA_DIR, FILE_NAME)
 
@@ -26,7 +27,7 @@ test_size = 0.4
 col_size = len(COLLECTION)
 n_neighbors = (int)(math.sqrt(col_size))
 kernel = ['linear', 'rbf', 'poly']
-n_epochs = 300
+n_epochs = 100
 n_estimators = int(len(X)*(1 - test_size))
 print("SVM with noise data:", SVM(X, y, test_size, 'linear'))
 #print("Random Forest with noise data:", Random_Forest(X, y, test_size, n_estimators))

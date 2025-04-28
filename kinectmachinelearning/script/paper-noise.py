@@ -2,7 +2,9 @@
 '''A script that loads data and trains different models using them.'''
 import math
 from os.path import join
-from kinect_learning import (joints_collection, load_data, SVM, Random_Forest, AdaBoost, Gaussian_NB, Knn, Neural_Network)
+#from kinect_learning import (joints_collection, load_data, SVM, Random_Forest, AdaBoost, Gaussian_NB, Knn, Neural_Network)
+from kinectlearningrepeatedmeasure import (joints_collection, load_data, SVM, Random_Forest, AdaBoost, Gaussian_NB, Knn, Neural_Network)
+
 
 ## Build path to file.
 DATA_DIR = 'data'
@@ -28,6 +30,7 @@ n_neighbors = (int)(math.sqrt(col_size))
 kernel = ['linear', 'rbf', 'poly']
 n_epochs = 300
 n_estimators = int(len(X)*(1 - test_size))
+print("KNN:", Knn(X, y, test_size,3))
 print("SVM with noise data:", SVM(X, y, test_size, 'linear'))
 #print("Random Forest with noise data:", Random_Forest(X, y, test_size, n_estimators))
 print("AdaBoost with noise data:", AdaBoost(X, y, test_size, n_estimators))
